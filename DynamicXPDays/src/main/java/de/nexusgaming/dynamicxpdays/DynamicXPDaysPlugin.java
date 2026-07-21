@@ -1,4 +1,3 @@
-\
 package de.nexusgaming.dynamicxpdays;
 
 import org.bukkit.ChatColor;
