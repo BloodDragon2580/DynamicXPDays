@@ -1,0 +1,23 @@
+name: DynamicXPDays
+version: 1.2.1
+main: de.nexusgaming.dynamicxpdays.DynamicXPDaysPlugin
+api-version: '1.21'
+author: Nexus Gaming
+description: Configurable multilingual XP event days for Paper servers.
+
+commands:
+  dynamicxpdays:
+    description: Shows the DynamicXPDays status or reloads the configuration.
+    usage: /dynamicxpdays [status|reload]
+    aliases: [xpdays, dynamicxp, dxp, doublexp]
+
+permissions:
+  dynamicxpdays.status:
+    description: Allows players to check the DynamicXPDays status.
+    default: true
+  dynamicxpdays.reload:
+    description: Allows reloading the plugin configuration.
+    default: op
+  dynamicxpdays.bypass:
+    description: Prevents DynamicXPDays XP multipliers from being applied to the player.
+    default: false

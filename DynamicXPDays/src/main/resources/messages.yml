@@ -1,0 +1,243 @@
+# ============================================================
+# DynamicXPDays Messages
+# DynamicXPDays Nachrichten
+#
+# Colors / Farben:
+# Use & color codes, for example &a, &6, &c.
+# Verwende & Farbcodes, zum Beispiel &a, &6, &c.
+#
+# Placeholders / Platzhalter:
+# {multiplier} = configured XP multiplier / eingestellter XP-Multiplikator
+# {day}        = current weekday / aktueller Wochentag
+# ============================================================
+
+de:
+  prefix: "&8[&6DynamicXPDays&8] &r"
+  active: "&aHeute ist ein Double-XP-Tag! &7Multiplikator: &e{multiplier}x"
+  inactive: "&7Heute ist kein Double-XP-Tag."
+  join: "&aHeute ist Double XP aktiv! &7Du erhältst &e{multiplier}x XP&a."
+  repeating: "&6Double XP ist heute aktiv! &7Sammle jetzt &e{multiplier}x XP&7."
+  reload: "&aDie Konfiguration wurde neu geladen."
+  no-permission: "&cDafür hast du keine Berechtigung."
+  disabled: "&cDas Plugin ist derzeit deaktiviert."
+  usage: "&cVerwendung: /{label} [status|reload]"
+
+en:
+  prefix: "&8[&6DynamicXPDays&8] &r"
+  active: "&aDouble XP is active today! &7Multiplier: &e{multiplier}x"
+  inactive: "&7Double XP is not active today."
+  join: "&aDouble XP is active today! &7You receive &e{multiplier}x XP&a."
+  repeating: "&6Double XP is active today! &7Earn &e{multiplier}x XP &7now."
+  reload: "&aThe configuration has been reloaded."
+  no-permission: "&cYou do not have permission to do that."
+  disabled: "&cThe plugin is currently disabled."
+  usage: "&cUsage: /{label} [status|reload]"
+
+fr:
+  prefix: "&8[&6DynamicXPDays&8] &r"
+  active: "&aLe double XP est actif aujourd'hui ! &7Multiplicateur : &e{multiplier}x"
+  inactive: "&7Le double XP n'est pas actif aujourd'hui."
+  join: "&aLe double XP est actif aujourd'hui ! &7Vous recevez &e{multiplier}x XP&a."
+  repeating: "&6Le double XP est actif aujourd'hui ! &7Gagnez maintenant &e{multiplier}x XP&7."
+  reload: "&aLa configuration a été rechargée."
+  no-permission: "&cVous n'avez pas la permission."
+  disabled: "&cLe plugin est actuellement désactivé."
+  usage: "&cUtilisation : /{label} [status|reload]"
+
+es:
+  prefix: "&8[&6DynamicXPDays&8] &r"
+  active: "&a¡El XP doble está activo hoy! &7Multiplicador: &e{multiplier}x"
+  inactive: "&7Hoy no está activo el XP doble."
+  join: "&a¡El XP doble está activo hoy! &7Recibes &e{multiplier}x XP&a."
+  repeating: "&6¡El XP doble está activo hoy! &7Consigue ahora &e{multiplier}x XP&7."
+  reload: "&aLa configuración se ha recargado."
+  no-permission: "&cNo tienes permiso para hacer eso."
+  disabled: "&cEl plugin está desactivado."
+  usage: "&cUso: /{label} [status|reload]"
+
+it:
+  prefix: "&8[&6DynamicXPDays&8] &r"
+  active: "&aIl doppio XP è attivo oggi! &7Moltiplicatore: &e{multiplier}x"
+  inactive: "&7Oggi il doppio XP non è attivo."
+  join: "&aIl doppio XP è attivo oggi! &7Ricevi &e{multiplier}x XP&a."
+  repeating: "&6Il doppio XP è attivo oggi! &7Ottieni ora &e{multiplier}x XP&7."
+  reload: "&aLa configurazione è stata ricaricata."
+  no-permission: "&cNon hai il permesso."
+  disabled: "&cIl plugin è attualmente disattivato."
+  usage: "&cUtilizzo: /{label} [status|reload]"
+
+pt:
+  prefix: "&8[&6DynamicXPDays&8] &r"
+  active: "&aO XP duplo está ativo hoje! &7Multiplicador: &e{multiplier}x"
+  inactive: "&7O XP duplo não está ativo hoje."
+  join: "&aO XP duplo está ativo hoje! &7Você recebe &e{multiplier}x XP&a."
+  repeating: "&6O XP duplo está ativo hoje! &7Ganhe agora &e{multiplier}x XP&7."
+  reload: "&aA configuração foi recarregada."
+  no-permission: "&cVocê não tem permissão."
+  disabled: "&cO plugin está desativado."
+  usage: "&cUso: /{label} [status|reload]"
+
+nl:
+  prefix: "&8[&6DynamicXPDays&8] &r"
+  active: "&aDubbele XP is vandaag actief! &7Vermenigvuldiger: &e{multiplier}x"
+  inactive: "&7Dubbele XP is vandaag niet actief."
+  join: "&aDubbele XP is vandaag actief! &7Je ontvangt &e{multiplier}x XP&a."
+  repeating: "&6Dubbele XP is vandaag actief! &7Verdien nu &e{multiplier}x XP&7."
+  reload: "&aDe configuratie is opnieuw geladen."
+  no-permission: "&cJe hebt hiervoor geen toestemming."
+  disabled: "&cDe plugin is momenteel uitgeschakeld."
+  usage: "&cGebruik: /{label} [status|reload]"
+
+pl:
+  prefix: "&8[&6DynamicXPDays&8] &r"
+  active: "&aPodwójne XP jest dziś aktywne! &7Mnożnik: &e{multiplier}x"
+  inactive: "&7Podwójne XP nie jest dziś aktywne."
+  join: "&aPodwójne XP jest dziś aktywne! &7Otrzymujesz &e{multiplier}x XP&a."
+  repeating: "&6Podwójne XP jest dziś aktywne! &7Zdobywaj teraz &e{multiplier}x XP&7."
+  reload: "&aKonfiguracja została przeładowana."
+  no-permission: "&cNie masz do tego uprawnień."
+  disabled: "&cPlugin jest obecnie wyłączony."
+  usage: "&cUżycie: /{label} [status|reload]"
+
+ru:
+  prefix: "&8[&6DynamicXPDays&8] &r"
+  active: "&aСегодня действует двойной опыт! &7Множитель: &e{multiplier}x"
+  inactive: "&7Сегодня двойной опыт не действует."
+  join: "&aСегодня действует двойной опыт! &7Вы получаете &e{multiplier}x XP&a."
+  repeating: "&6Сегодня действует двойной опыт! &7Получайте &e{multiplier}x XP&7."
+  reload: "&aКонфигурация перезагружена."
+  no-permission: "&cУ вас нет разрешения."
+  disabled: "&cПлагин сейчас отключен."
+  usage: "&cИспользование: /{label} [status|reload]"
+
+uk:
+  prefix: "&8[&6DynamicXPDays&8] &r"
+  active: "&aСьогодні діє подвійний досвід! &7Множник: &e{multiplier}x"
+  inactive: "&7Сьогодні подвійний досвід не діє."
+  join: "&aСьогодні діє подвійний досвід! &7Ви отримуєте &e{multiplier}x XP&a."
+  repeating: "&6Сьогодні діє подвійний досвід! &7Отримуйте &e{multiplier}x XP&7."
+  reload: "&aКонфігурацію перезавантажено."
+  no-permission: "&cУ вас немає дозволу."
+  disabled: "&cПлагін зараз вимкнений."
+  usage: "&cВикористання: /{label} [status|reload]"
+
+tr:
+  prefix: "&8[&6DynamicXPDays&8] &r"
+  active: "&aBugün çift XP aktif! &7Çarpan: &e{multiplier}x"
+  inactive: "&7Bugün çift XP aktif değil."
+  join: "&aBugün çift XP aktif! &7&e{multiplier}x XP &7kazanıyorsun."
+  repeating: "&6Bugün çift XP aktif! &7Şimdi &e{multiplier}x XP &7kazan."
+  reload: "&aYapılandırma yeniden yüklendi."
+  no-permission: "&cBunu yapmak için iznin yok."
+  disabled: "&cEklenti şu anda devre dışı."
+  usage: "&cKullanım: /{label} [status|reload]"
+
+cs:
+  prefix: "&8[&6DynamicXPDays&8] &r"
+  active: "&aDnes je aktivní dvojnásobné XP! &7Násobitel: &e{multiplier}x"
+  inactive: "&7Dnes není aktivní dvojnásobné XP."
+  join: "&aDnes je aktivní dvojnásobné XP! &7Získáváš &e{multiplier}x XP&a."
+  repeating: "&6Dnes je aktivní dvojnásobné XP! &7Získej nyní &e{multiplier}x XP&7."
+  reload: "&aKonfigurace byla znovu načtena."
+  no-permission: "&cNemáš oprávnění."
+  disabled: "&cPlugin je nyní vypnutý."
+  usage: "&cPoužití: /{label} [status|reload]"
+
+da:
+  prefix: "&8[&6DynamicXPDays&8] &r"
+  active: "&aDobbelt XP er aktivt i dag! &7Multiplikator: &e{multiplier}x"
+  inactive: "&7Dobbelt XP er ikke aktivt i dag."
+  join: "&aDobbelt XP er aktivt i dag! &7Du modtager &e{multiplier}x XP&a."
+  repeating: "&6Dobbelt XP er aktivt i dag! &7Tjen nu &e{multiplier}x XP&7."
+  reload: "&aKonfigurationen er genindlæst."
+  no-permission: "&cDu har ikke tilladelse."
+  disabled: "&cPluginet er deaktiveret."
+  usage: "&cBrug: /{label} [status|reload]"
+
+sv:
+  prefix: "&8[&6DynamicXPDays&8] &r"
+  active: "&aDubbel XP är aktivt idag! &7Multiplikator: &e{multiplier}x"
+  inactive: "&7Dubbel XP är inte aktivt idag."
+  join: "&aDubbel XP är aktivt idag! &7Du får &e{multiplier}x XP&a."
+  repeating: "&6Dubbel XP är aktivt idag! &7Tjäna nu &e{multiplier}x XP&7."
+  reload: "&aKonfigurationen har laddats om."
+  no-permission: "&cDu har inte behörighet."
+  disabled: "&cPluginet är avstängt."
+  usage: "&cAnvändning: /{label} [status|reload]"
+
+no:
+  prefix: "&8[&6DynamicXPDays&8] &r"
+  active: "&aDobbel XP er aktivt i dag! &7Multiplikator: &e{multiplier}x"
+  inactive: "&7Dobbel XP er ikke aktivt i dag."
+  join: "&aDobbel XP er aktivt i dag! &7Du får &e{multiplier}x XP&a."
+  repeating: "&6Dobbel XP er aktivt i dag! &7Tjen nå &e{multiplier}x XP&7."
+  reload: "&aKonfigurasjonen er lastet inn på nytt."
+  no-permission: "&cDu har ikke tillatelse."
+  disabled: "&cPluginet er deaktivert."
+  usage: "&cBruk: /{label} [status|reload]"
+
+fi:
+  prefix: "&8[&6DynamicXPDays&8] &r"
+  active: "&aTupla-XP on tänään käytössä! &7Kerroin: &e{multiplier}x"
+  inactive: "&7Tupla-XP ei ole tänään käytössä."
+  join: "&aTupla-XP on tänään käytössä! &7Saat &e{multiplier}x XP&a."
+  repeating: "&6Tupla-XP on tänään käytössä! &7Ansaitse nyt &e{multiplier}x XP&7."
+  reload: "&aAsetukset ladattiin uudelleen."
+  no-permission: "&cSinulla ei ole oikeutta."
+  disabled: "&cLisäosa on pois käytöstä."
+  usage: "&cKäyttö: /{label} [status|reload]"
+
+hu:
+  prefix: "&8[&6DynamicXPDays&8] &r"
+  active: "&aMa dupla XP aktív! &7Szorzó: &e{multiplier}x"
+  inactive: "&7Ma nincs aktív dupla XP."
+  join: "&aMa dupla XP aktív! &7&e{multiplier}x XP-t &7kapsz."
+  repeating: "&6Ma dupla XP aktív! &7Szerezz most &e{multiplier}x XP-t&7."
+  reload: "&aA konfiguráció újratöltve."
+  no-permission: "&cNincs jogosultságod."
+  disabled: "&cA plugin jelenleg ki van kapcsolva."
+  usage: "&cHasználat: /{label} [status|reload]"
+
+ro:
+  prefix: "&8[&6DynamicXPDays&8] &r"
+  active: "&aXP dublu este activ astăzi! &7Multiplicator: &e{multiplier}x"
+  inactive: "&7XP dublu nu este activ astăzi."
+  join: "&aXP dublu este activ astăzi! &7Primești &e{multiplier}x XP&a."
+  repeating: "&6XP dublu este activ astăzi! &7Câștigă acum &e{multiplier}x XP&7."
+  reload: "&aConfigurația a fost reîncărcată."
+  no-permission: "&cNu ai permisiunea."
+  disabled: "&cPluginul este dezactivat."
+  usage: "&cUtilizare: /{label} [status|reload]"
+
+ja:
+  prefix: "&8[&6DynamicXPDays&8] &r"
+  active: "&a本日は経験値2倍デーです！ &7倍率: &e{multiplier}x"
+  inactive: "&7本日は経験値2倍デーではありません。"
+  join: "&a本日は経験値2倍デーです！ &7経験値が&e{multiplier}x&7になります。"
+  repeating: "&6本日は経験値2倍デーです！ &7今すぐ&e{multiplier}x XP&7を獲得しよう。"
+  reload: "&a設定を再読み込みしました。"
+  no-permission: "&c権限がありません。"
+  disabled: "&cプラグインは現在無効です。"
+  usage: "&c使用方法: /{label} [status|reload]"
+
+ko:
+  prefix: "&8[&6DynamicXPDays&8] &r"
+  active: "&a오늘은 경험치 2배의 날입니다! &7배율: &e{multiplier}x"
+  inactive: "&7오늘은 경험치 2배가 활성화되지 않았습니다."
+  join: "&a오늘은 경험치 2배의 날입니다! &7&e{multiplier}x XP&7를 받습니다."
+  repeating: "&6오늘은 경험치 2배의 날입니다! &7지금 &e{multiplier}x XP&7를 획득하세요."
+  reload: "&a설정을 다시 불러왔습니다."
+  no-permission: "&c권한이 없습니다."
+  disabled: "&c플러그인이 비활성화되어 있습니다."
+  usage: "&c사용법: /{label} [status|reload]"
+
+zh:
+  prefix: "&8[&6DynamicXPDays&8] &r"
+  active: "&a今天是双倍经验日！ &7倍率：&e{multiplier}x"
+  inactive: "&7今天没有开启双倍经验。"
+  join: "&a今天是双倍经验日！ &7你将获得 &e{multiplier}x XP&a。"
+  repeating: "&6今天是双倍经验日！ &7现在即可获得 &e{multiplier}x XP&7。"
+  reload: "&a配置已重新加载。"
+  no-permission: "&c你没有权限。"
+  disabled: "&c插件当前已禁用。"
+  usage: "&c用法：/{label} [status|reload]"
