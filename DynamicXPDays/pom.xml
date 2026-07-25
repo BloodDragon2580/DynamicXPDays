@@ -6,7 +6,7 @@
 
     <groupId>de.nexusgaming</groupId>
     <artifactId>DynamicXPDays</artifactId>
-    <version>1.2.1</version>
+    <version>1.2.2</version>
     <name>DynamicXPDays</name>
     <description>Configurable multilingual XP event days for Paper servers.</description>
 

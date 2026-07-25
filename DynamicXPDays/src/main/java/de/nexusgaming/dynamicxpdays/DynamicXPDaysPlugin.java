@@ -45,7 +45,12 @@ public final class DynamicXPDaysPlugin extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         saveDefaultConfig();
-        saveResource("messages.yml", false);
+
+        File messagesFile = new File(getDataFolder(), "messages.yml");
+        if (!messagesFile.exists()) {
+            saveResource("messages.yml", false);
+        }
+
         loadSettings();
 
         getServer().getPluginManager().registerEvents(this, this);
