@@ -1,0 +1,67 @@
+# ============================================================
+# DynamicXPDays Configuration
+# DynamicXPDays Konfiguration
+# ============================================================
+
+settings:
+  # Enables or disables the plugin.
+  # Aktiviert oder deaktiviert das Plugin.
+  enabled: true
+
+  # XP multiplier used on configured active days.
+  # XP-Multiplikator an den eingestellten aktiven Tagen.
+  #
+  # Examples / Beispiele:
+  # 2.0 = dynamic XP / dynamische XP
+  # 1.5 = 50% more XP / 50% mehr XP
+  # 3.0 = triple XP / dreifache XP
+  multiplier: 2.0
+
+  # Time zone used to determine the current weekday.
+  # Zeitzone zur Ermittlung des aktuellen Wochentags.
+  timezone: "Europe/Berlin"
+
+  # Active weekdays. Use English weekday names.
+  # Aktive Wochentage. Englische Namen verwenden.
+  #
+  # MONDAY, TUESDAY, WEDNESDAY, THURSDAY,
+  # FRIDAY, SATURDAY, SUNDAY
+  active-days:
+    - SATURDAY
+    - SUNDAY
+
+  # Players with dynamicxpdays.bypass do not receive multiplied XP.
+  # Spieler mit dynamicxpdays.bypass erhalten keine erhöhten XP.
+  respect-bypass-permission: true
+
+language:
+  # Automatically uses the Minecraft client language of each player.
+  # Verwendet automatisch die Minecraft-Clientsprache jedes Spielers.
+  use-player-client-language: true
+
+  # Fallback language if a player language is not available.
+  # Ersatzsprache, falls eine Spielersprache nicht vorhanden ist.
+  #
+  # Available / Verfügbar:
+  # de, en, fr, es, it, pt, nl, pl, ru, uk,
+  # tr, cs, da, sv, no, fi, hu, ro, ja, ko, zh
+  fallback-language: "de"
+
+notifications:
+  # Shows a message when a player joins during an active XP day.
+  # Zeigt beim Betreten an aktiven XP-Tagen eine Nachricht.
+  join-message:
+    enabled: true
+
+  # Sends a repeating chat notification while Dynamic XP is active.
+  # Sendet während aktiven Dynamic-XP-Tagen regelmäßig eine Chat-Nachricht.
+  repeating-message:
+    enabled: true
+
+    # Interval in minutes between messages.
+    # Abstand zwischen den Nachrichten in Minuten.
+    interval-minutes: 30
+
+    # Do not send the message when no players are online.
+    # Keine Nachricht senden, wenn keine Spieler online sind.
+    only-when-players-online: true

@@ -6,7 +6,7 @@
 
     <groupId>de.nexusgaming</groupId>
     <artifactId>DynamicXPDays</artifactId>
-    <version>1.2.2</version>
+    <version>1.2.3</version>
     <name>DynamicXPDays</name>
     <description>Configurable multilingual XP event days for Paper servers.</description>
 
@@ -26,7 +26,7 @@
         <dependency>
             <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
-            <version>1.21.8-R0.1-SNAPSHOT</version>
+            <version>26.3-rc-3.build.1-alpha</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>

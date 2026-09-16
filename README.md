@@ -279,3 +279,9 @@ dynamicxpdays.bypass
 ```
 
 Spieler mit dieser Berechtigung erhalten den eingestellten XP-Multiplikator nicht.
+
+## Paper compatibility / Paper-Kompatibilität
+
+- Build target: Paper / Minecraft 26.3
+- `api-version: 1.21` is intentionally retained for backward compatibility
+- Plugin bytecode remains Java 21 compatible; the build itself uses JDK 25 for the Paper 26.3 API

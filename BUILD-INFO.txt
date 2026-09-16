@@ -1,0 +1,17 @@
+DynamicXPDays 1.2.3
+
+Compatibility update prepared for Minecraft/Paper 26.3.
+Backward compatibility floor retained: api-version 1.21 / Java 21 bytecode.
+Build target: Paper 26.3 RC API (26.3-rc-3.build.1-alpha).
+
+Important:
+- Source/config/build metadata were updated and statically validated.
+- This environment cannot resolve external Maven/Gradle dependencies, so no new JAR was compiled here.
+- On Windows, run build.bat from this folder. The builders download required build tools when needed using curl/tar (no PowerShell dependency).
+- Existing configuration files and language resources were preserved.
+
+
+Build fix 2026-09-16:
+- Fixed Windows Java version detection.
+- Fixed invalid Paper 26.3 Maven dependency version.
+- Root builder now remains open on errors and writes build.log.
